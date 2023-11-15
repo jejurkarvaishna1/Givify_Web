@@ -1,0 +1,29 @@
+.footer-container {
+    background-color: rgb(12, 80, 109);
+    padding: 20px;
+   
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .footer-link {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+   
+  }
+  
+  /* Additional styling for social icons if needed */
+  .social-icons a {
+    color:rgb(198, 83, 6);
+  }

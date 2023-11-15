@@ -1,0 +1,335 @@
+.Main_about_p {
+  color: white;
+  text-align: center;
+  margin-top: 6px; /* Adjust the margin to reduce the gap */
+}
+
+.dimmed-image {
+  max-width: 100%;
+  height: 320px;
+  position: relative;
+}
+
+.image-container {
+  position: relative;
+  height: 300px;
+}
+
+.image-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.givify-heading {
+  color: white;
+  font-size: 6rem;
+  margin-top: 30px;
+  margin-bottom: 1px; /* Reduced margin for a smaller gap */
+  position: relative;
+  display: inline-block;
+  border: 2px solid transparent;
+  transition: border-color 0.3s, color 0.3s;
+}
+
+.donate-button {
+  background-color: white;
+  color: black;
+  border: none;
+  padding: 15px 30px; /* Increased padding for a larger button */
+  font-size: 1.2rem; /* Increased font size for the button text */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  border-radius: 25px; /* Adding border-radius for curved edges */
+}
+
+.donate-button:hover {
+  background-color: transparent;
+  color: white;
+  border: 2px solid white;
+}
+/* ----------------------------------------------------------------------------------------------------------*/
+.div2 {
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.left-side {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color:rgb(198, 83, 6);
+}
+
+.top {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+  flex: 1; /* Use 50% of the height */
+}
+
+h3 {
+  font-size: 2rem;
+  margin: 5px;
+}
+
+.right-side img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-top: 4px;
+
+}
+
+
+/* ----------------------------------------------------------------------------------------------------------*/
+.thought {
+  display: flex;
+  align-items: center;
+}
+
+.thought-box {
+  flex: 1;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 300px; 
+}
+
+.centered-heading {
+  font-size: 24px;
+  color: white; /* Heading text color */
+  margin: 0;
+}
+/*--------------------------------------------------------------------------------------------------------------*/
+.custom-background {
+  background-image: url("image3.jpg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 460px;
+  position: relative;
+}
+
+.box {
+  background-color: rgba(255, 255, 255, 0.8);
+  height: 450px;
+  font-size: 24px;
+  margin: 0;
+  padding: 20px;
+  text-align: center;
+}
+
+.inside-box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  height: 400px;
+}
+
+.box-heading {
+  border-radius: 20px;
+  font-size: 36px; /* Increase the font size for the heading */
+  color: rgb(198, 83, 6);
+  padding: 20px;
+  text-align: center; /* Align the heading to the left */
+  margin-left: 20px; /* Add left margin to the heading */
+}
+
+.content-box {
+  background-color: rgba(12, 80, 109, 0.8); /* You can change this background color */
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px; /* Adjust spacing between heading and content box */
+  padding: 20px;
+}
+
+.box-content {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: #333;
+  text-align: left; /* Align the content to the left */
+}
+
+/* CSS animation for the content */
+.animated {
+  animation:fadeInUp 2s ease-in-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+.second-main-h {
+  color: black;
+  font-size: 30px;
+  margin-bottom: 3px;
+  
+  text-decoration: underline rgb(198, 83, 6);
+  display: inline-block;
+  padding-bottom: 5px;
+}
+.second-main{
+  text-align: center;
+  
+}
+.second-main-h2 {
+  margin-top: 0; /* Reset the default margin to remove the gap at the top of the second line */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+ 
+  padding: 20px;
+}
+
+.card {
+  flex: 1;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border: 1px solid #ddd;
+  background-color: rgb(255, 255, 255);
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.card:hover {
+  background-color: #f0f0f0; /* Change the background color when hovering */
+}
+
+
+.photo{
+  width: 540px;
+}
+.card h2 {
+  margin-top: 30px;
+  color: rgb(12, 80, 109);
+  font-size: 24px;
+  text-align: left;
+  font-family: Arial, sans-serif;
+  margin-top: 0;
+  animation: slideFromRight 4s ease forwards; /* Use animation to slide in from the right */
+}
+
+.card-p {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  text-align: left;
+  margin-left: 18px;
+  animation: slideFromLeft 4s ease forwards; /* Use animation to slide in from the left */
+}
+
+@keyframes slideFromRight {
+  from {
+    transform: translateX(100%); /* Start outside the card on the right */
+  }
+  to {
+    transform: translateX(0); /* Move to the original position */
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    transform: translateX(-100%); /* Start outside the card on the left */
+  }
+  to {
+    transform: translateX(0); /* Move to the original position */
+  }
+}
+
+/*------------------------------------------------------------------------------------------------------------*/
+/* New styles for the feature section */
+.feature-section {
+  background-image: url("card_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  display: flex;
+  height: 300px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative; /* Add this to establish a positioning context */
+
+  /* Add a white overlay using a pseudo-element */
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* Adjust the opacity as needed */
+    
+  }
+}
+
+
+.feature-card {
+  display: flex;
+  background-color: white;
+  padding: 10px; /* Add padding to create space between cards and the black background */
+  border-radius: 10px; /* Rounded corners for the black background */
+  justify-content: space-around; /* Center the cards horizontally */
+  align-items: center; /* Center the cards vertically */
+  position: relative;
+}
+
+.feature-card:hover {
+  transform: scale(1.1);
+}
+
+.feature-image {
+  display: block;
+  width: 300px;
+  height: 200px;
+  margin: 0 auto;
+  transition: filter 0.3s; /* Use filter for the transition */
+  position: relative; /* Required for positioning pseudo-element */
+
+  /* Apply a blur filter */
+  filter: blur(0.5px);
+}
+.feature-card:hover .feature-image {
+  opacity: 0;
+}
+.feature-heading {
+  font-size: 30px;
+  margin: 10px 0;
+  background-color: azure;
+  color: black; /* Set the text color to orange */
+  text-align: center; /* Center the text horizontally */
+  position: absolute;
+  top: 50%; /* Center the heading vertically */
+  left: 50%; /* Center the heading horizontally */
+  transform: translate(-50%, -50%); /* Center the heading perfectly */
+  z-index: 1; 
+}

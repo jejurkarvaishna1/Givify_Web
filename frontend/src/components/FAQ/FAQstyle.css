@@ -1,0 +1,52 @@
+/* FAQstyle.css */
+.faq-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(198, 83, 6); /* Set the heading to orange color */
+}
+
+.faq-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.faq-question {
+  display: block;
+  width: 100%;
+  color: white;
+  text-align: left;
+  background-color: rgb(12, 80, 109); /* Set background color for the question button */
+  border: none;
+  padding: 10px;
+  height: 50px;
+  margin: 5px 0;
+  cursor: pointer;
+}
+
+.faq-question:hover {
+  background-color: #3498db; /* Hover effect to a different color */
+}
+
+.faq-question.active {
+  background-color: #3498db; /* Set the background color when the question is active */
+}
+
+.faq-answer {
+  display: none;
+  padding: 10px;
+  border: 2px solid #3498db; /* Add a border around the answer */
+  background-color: #f9f9f9;
+}
+
+.faq-list li {
+  margin: 10px 0;
+}
+
+.faq-question.active + .faq-answer {
+  display: block; /* Show the answer when the question is active */
+}

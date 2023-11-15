@@ -1,0 +1,124 @@
+/* ReceiverStyle.css */
+
+ .donate-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+  } 
+  
+  .donate-container {
+    background: rgba(255, 255, 255, 1); 
+    padding: 20px;
+    padding-right: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    color: #000000; /* Text color on top of the background image */
+    text-align: center;
+  }
+h2{
+        color: #000;
+      
+}
+  /* Center the list */
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Adjust search bar and button placement */
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+/* ReceiverStyle.css */
+
+/* Existing styles ... */
+
+/* Style the list items */
+.Reciever-li li {
+    background: #fff;
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Adjust the spacing between elements */
+.Reciever-li li + li {
+    margin-top: 20px;
+  }
+  
+  /* Style the button inside the list items */
+.Reciever-li li button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+.Reciever-li li button:hover {
+    background-color: #45a049;
+  }
+  
+.Reciever-li li .info-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Style for each piece of information within a group */
+.Reciever-li li .info-item {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Highlight the status */
+.Reciever-li  li .status {
+    color: red; /* Change to the color you prefer */
+    font-weight: bold;
+  }
+  
+.Reciever-li li button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 5px;
+  }
+  
+.Reciever-li li button:hover {
+    background-color: #45a049;
+  }
+  
+  

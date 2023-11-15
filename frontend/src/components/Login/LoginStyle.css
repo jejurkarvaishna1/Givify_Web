@@ -1,0 +1,107 @@
+.auth-form-container {
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 1);
+    height: 800px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text horizontally */
+  }
+  
+  h2 {
+    font-size: 35px;
+    text-align: center;
+    
+  }
+  
+  .login-form {
+  
+    border: 1px solid #ccc;
+    padding: 40px 80px 80px 80px; /* Increase the padding for a bigger box */
+    border-radius: 50px;
+    background-color: rgba(215, 212, 212, 0.7);
+    max-width: 350px; /* Adjust the maximum width as needed */
+    width: 100%;
+  }
+  
+  .link-btn {
+    text-align: center; /* Center the button horizontally */
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+    cursor: pointer;
+  }
+  label {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 10px 10px 0px;
+    text-align: l;
+  }
+  
+  input {
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .link-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color: rgb(141, 141, 141);
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .link-btn:hover {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
