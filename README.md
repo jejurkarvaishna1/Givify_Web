@@ -1,1 +1,3 @@
-# Givify_Web
+In the realm of charitable food donations, there exists a gap in the online space where individuals or organizations seeking to donate surplus food to those in need lack a unified, accessible platform. Presently, the available websites that facilitate food donation often either focus solely on receiving donations or charge fees for monetary contributions. This fragmentation and financial barrier deter potential donors and recipients from easily connecting and sharing resources to prevent food wastage and aid those facing hunger.
+
+Givify, a Java full-stack project, aims to create an accessible and free platform for individuals and organizations to donate surplus food and for those in need to receive it.By offering a seamless, fee-free exchange, Givify endeavors to reduce food wastage, facilitate easy access to donations, and foster a culture of social responsibility, thereby combating both food scarcity and environmental impact.
